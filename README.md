@@ -25,10 +25,10 @@ link text, the third column the number of discovered senses, and the fourth colu
 frequencies of the senses do not sum up to the frequency of the word, then this is due to link targets that were dropped in the filtering process
 mentioned above. Here's an exemplary line:
 
-`stress  5345    3       Stress_(mechanics):2092  Stress_(biology):1788  Stress_(linguistics):727`
+`stress <TAB> 5345 <TAB> 3 <TAB> Stress_(mechanics):2092  Stress_(biology):1788  Stress_(linguistics):727`
 
 Here's an exemplary line of the instances-* files:
 
-`stress  Stress_(mechanics)      other application may be in medical sonography and elastography measure the stress or pressure level in relevant elastic tissue type ( e .g .   det(@@,the) dobj(measure,@@) cc(@@,or) conj(@@,level)`
+`stress <TAB> Stress_(mechanics) <TAB> other application may be in medical sonography and elastography measure the stress or pressure level in relevant elastic tissue type ( e .g . <TAB> det(@@,the) dobj(measure,@@) cc(@@,or) conj(@@,level)`
 
 As you can see, the file again contains 4 columns. The first column is the word itself, the second the appropriate sense (as linked in this context), the third column is the set ("bag") of lemmas in this context, and the fourth column the collapsed Stanford dependencies of the context.
